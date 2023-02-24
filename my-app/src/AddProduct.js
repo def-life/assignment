@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 
 const URLS = {
-  POST_PRODUCT: "api/products"
+  POST_PRODUCT: "https://myassignment.onrender.com/api/products"
 }
 
 function AddProduct() {

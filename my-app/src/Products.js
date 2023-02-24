@@ -8,7 +8,7 @@ import axios from "axios";
 import { Grid } from "@mui/material";
 import { Container } from "@mui/system";
 
-const url = "api/products";
+const url = "https://myassignment.onrender.com/api/products";
 
 export default function Products() {
   console.log('grid will solve the problem of that poor layout')
