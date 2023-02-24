@@ -33,7 +33,8 @@ const client = new S3Client({
 const app = express();
 const PORT = process.env.PORT || 3004;
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
+app.use(cors())
 
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
