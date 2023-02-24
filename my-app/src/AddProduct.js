@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 
 const URLS = {
-  POST_PRODUCT: "http://localhost:3004/api/products"
+  POST_PRODUCT: "api/products"
 }
 
 function AddProduct() {
