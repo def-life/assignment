@@ -161,7 +161,7 @@ function AddProduct() {
               type="file"
             />
           </Button>
-          {!!errors.files.length && <FormHelperText sx={{color: "red"}}>{errors.files}</FormHelperText>}
+          {errors.files && <FormHelperText sx={{color: "red"}}>{errors.files}</FormHelperText>}
         </Grid>
         <Grid item xs={12}>
           <Preview fileList={files} />
