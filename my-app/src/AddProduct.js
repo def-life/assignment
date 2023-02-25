@@ -59,6 +59,7 @@ function AddProduct() {
 
 
     // send data to the server;
+    setLoading(true);
     const fd = new FormData();
     for(let key in product) {
       if(key === "errors" || key === "files") continue;
@@ -75,7 +76,6 @@ function AddProduct() {
       method: "POST"
     })
     .then((res) => {
-      setLoading(true);
 
       if(!res.ok) {
          throw new Error("4XX status");

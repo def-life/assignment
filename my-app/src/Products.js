@@ -11,7 +11,8 @@ import { Container } from "@mui/system";
 const url = "https://myassignment.onrender.com/api/products";
 
 export default function Products() {
-  console.log('grid will solve the problem of that poor layout')
+  console.log('grid will solve the problem of that poor layout');
+  console.log("limited to 8 products");
   const [data, setData] = useState([]);
   const [err, setErr] = useState(null);
 
