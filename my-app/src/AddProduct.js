@@ -98,6 +98,7 @@ function AddProduct() {
       })
     })
     .catch((err) => {
+      alert("request failed");
     })
     .finally(() => {
       setLoading(false);
